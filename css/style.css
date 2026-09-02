@@ -444,8 +444,23 @@ a:hover {
   margin: 2rem 0 1rem;
 }
 
+.page-content h3 {
+  font-size: 1.05rem;
+  color: var(--color-navy);
+  margin: 1.5rem 0 0.75rem;
+}
+
 .page-content p {
   margin: 0 0 1.25rem;
+}
+
+.page-content ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.page-content ol li {
+  margin-bottom: 0.5rem;
 }
 
 /* Footer */
