@@ -301,17 +301,21 @@ a:hover {
 }
 
 .service-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 10px;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
   background: #e8f3ed;
   color: var(--color-green);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.35rem;
+}
+
+.service-icon svg {
+  width: 34px;
+  height: 34px;
+  display: block;
 }
 
 .service-card h3 {
